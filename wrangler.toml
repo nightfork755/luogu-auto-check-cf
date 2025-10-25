@@ -1,0 +1,7 @@
+name = "luogu-auto-check-cf"
+type = "esm"
+account_id = "3d1ce2a288a7c20791ea92ac2843bf7d" # 替换为你的 Cloudflare account_id
+workers_dev = true
+
+# Asia/Shanghai 10:00 -> UTC 02:00
+triggers = { crons = ["0 2 * * *"] }
