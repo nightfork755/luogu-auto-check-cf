@@ -1,6 +1,6 @@
 # wrangler.toml
 name = 'nf-auto-check'
-type = "esm"
+compatibility_date = "2025-10-25"
 account_id = "3d1ce2a288a7c20791ea92ac2843bf7d" # 替换为你的 Cloudflare account_id
 workers_dev = true
 main = "worker.js"
