@@ -123,3 +123,5 @@ async function handleCheckin(env) {
 
   return { ok: true, results };
 }
+
+export default { scheduled, fetch };
